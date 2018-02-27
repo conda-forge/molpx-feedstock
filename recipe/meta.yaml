@@ -1,6 +1,6 @@
 {% set name = "molPX" %}
-{% set version = "0.1.5" %}
-{% set sha256 = "96d3949580bfcba5debbedafafe17f4def88f93dedf826bf8ba34d6d37eb2344" %}
+{% set version = "0.1.7" %}
+{% set sha256 = "494b81a715c864bdf36ddd661d86f98e2a6b9881d1202609d117dc64a176cf55" %}
 
 package:
   name: {{ name|lower }}
@@ -22,8 +22,9 @@ requirements:
   run:
     - python
     - setuptools
-    - nglview >=0.6.2.3
+    - nglview >=1
     - pyemma
+    - ipympl
     - scikit-learn
     - notebook
 
@@ -33,8 +34,7 @@ test:
 about:
   home: https://github.com/markovmodel/molPX
   license: LGPL v3+
-  # TODO: include in next release
-  #license_file: LICENSE.txt
+  license_file: LICENSE.txt
   summary: "molPX: Molecular Projection Explorer"
   doc_url: https://molpx.readthedocs.io/en/latest/
   dev_url: https://github.com/markovmodel/molPX
@@ -43,3 +43,4 @@ extra:
   recipe-maintainers:
     - gph82
     - marscher
+
