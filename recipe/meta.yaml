@@ -1,6 +1,6 @@
 {% set name = "molPX" %}
-{% set version = "0.1.7" %}
-{% set sha256 = "494b81a715c864bdf36ddd661d86f98e2a6b9881d1202609d117dc64a176cf55" %}
+{% set version = "0.16b3" %}
+{% set sha256 = "2f340ace73cdc9e6ba80e32c77e10a114911e1aa9638ef0a2d909a10655851a5" %}
 
 package:
   name: {{ name|lower }}
