@@ -13,12 +13,12 @@ source:
 
 build:
   number: 1000
-  script: "{{ PYTHON }} -m pip install . -vvv"
+  script: python -m pip install . -vv
   noarch: python
 
 requirements:
   build:
-    - python >=3
+    - python
     - setuptools
     - pip
   run:
